@@ -1,8 +1,6 @@
 # BuieViewTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/buie_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+> Various view specific methods for applications I use.
 
 ## Installation
 
@@ -21,8 +19,9 @@ Or install it yourself as:
     $ gem install buie_view_tool
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+DevcampViewTool::Renderer.copyright 'Rebecca Buie', 'All Rights Reserved'
+```
 
 ## Development
 
